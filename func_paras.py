@@ -1,8 +1,8 @@
 def calc(*numbers):
-	summ = 0
-	for n in numbers:
-		summ += n**2
-	return summ
+  summ = 0
+  for n in numbers:
+    summ += n**2
+  return summ
 
 
 print(calc(1, 2, 3, 4))
@@ -11,7 +11,7 @@ print(calc(*a))
 
 
 def person(name, age, **kw):
-	print(f'name:{name},', f'age:{age},', f'others:{kw}')
+  print(f'name:{name},', f'age:{age},', f'others:{kw}')
 
 
 person('Michael', 30)
